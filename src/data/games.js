@@ -1,0 +1,122 @@
+export const GAMES_DATA = [
+  {
+    id: 'ff7-rebirth',
+    title: 'Final Fantasy VII Rebirth',
+    subtitle: 'Project Reunion // Midgar Exodus',
+    genre: 'Sci-Fi RPG',
+    category: 'rpg',
+    rating: 9.8,
+    activePlayers: '142.8K',
+    status: 'OPTIMAL',
+    releaseYear: '2024',
+    developer: 'Square Enix',
+    tags: ['Cyberpunk', 'Materia Tech', 'Open World', 'Story Rich'],
+    coverImage: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop',
+    description: 'Enter a sprawling cyberpunk matrix beyond Midgar. Cloud and his allies confront Sephiroth in a high-stakes struggle across neon-drenched continents.',
+    accentColor: 'cyan',
+    badge: 'MUST PLAY'
+  },
+  {
+    id: 'destiny-2',
+    title: 'Destiny 2: The Final Shape',
+    subtitle: 'Vanguard Protocol // Lightfall aftermath',
+    genre: 'Space Opera Looter-Shooter',
+    category: 'shooter',
+    rating: 9.4,
+    activePlayers: '286.4K',
+    status: 'RAID ACTIVE',
+    releaseYear: '2024',
+    developer: 'Bungie',
+    tags: ['Co-Op', 'Cosmic Sci-Fi', 'FPS', 'Multiplayer'],
+    coverImage: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop',
+    description: 'Breach the Pale Heart of the Traveler. Harness prismatic energy combining Light and Darkness to transcend mortality and defeat the Witness.',
+    accentColor: 'purple',
+    badge: 'LIVE EVENT'
+  },
+  {
+    id: 'halo-infinite',
+    title: 'Halo Infinite: Cyber Archive',
+    subtitle: 'Spartan-II Cyber Operations',
+    genre: 'Sci-Fi FPS',
+    category: 'shooter',
+    rating: 9.1,
+    activePlayers: '98.2K',
+    status: 'STABLE',
+    releaseYear: '2023',
+    developer: '343 Industries',
+    tags: ['Arena Combat', 'Cyber Armor', 'AI Core', 'Master Chief'],
+    coverImage: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b675?q=80&w=1200&auto=format&fit=crop',
+    description: 'When all hope is lost, the Master Chief returns on Zeta Halo ring. High-velocity energy grapple mechanics meet ruthless alien legions.',
+    accentColor: 'emerald',
+    badge: 'CROSS-PLAY'
+  },
+  {
+    id: 'gears-e-day',
+    title: 'Gears of War: E-Day',
+    subtitle: 'Emergence Day // Crimson Pulse',
+    genre: 'Tactical Sci-Fi Action',
+    category: 'action',
+    rating: 9.6,
+    activePlayers: '210.5K',
+    status: 'CLASSIFIED',
+    releaseYear: '2025',
+    developer: 'The Coalition',
+    tags: ['Brutal Combat', 'Lancer Saw', 'Co-Op', 'Unreal Engine 5'],
+    coverImage: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop',
+    description: 'Fourteen years before the original trilogy, witness Emergence Day through the eyes of Marcus Fenix and Dom Santiago as subterranean horrors breach the surface.',
+    accentColor: 'rose',
+    badge: 'ANTICIPATED'
+  },
+  {
+    id: 'cyberpunk-2077',
+    title: 'Cyberpunk 2077: Phantom Liberty',
+    subtitle: 'Dogtown District // Spy-Thriller',
+    genre: 'Cyberpunk RPG',
+    category: 'rpg',
+    rating: 9.7,
+    activePlayers: '315.0K',
+    status: 'ONLINE',
+    releaseYear: '2023',
+    developer: 'CD Projekt RED',
+    tags: ['Cyberware', 'Night City', 'Ray Tracing', 'Relic Matrix'],
+    coverImage: 'https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1200&auto=format&fit=crop',
+    description: 'Infiltrate the walled district of Dogtown in an espionage-packed odyssey. Upgrade your neural cyberware and navigate corrupt corporate alliances.',
+    accentColor: 'amber',
+    badge: 'ULTRA HD'
+  },
+  {
+    id: 'armored-core-vi',
+    title: 'Armored Core VI: Fires of Rubicon',
+    subtitle: 'Handler Walter // Coral Convergence',
+    genre: 'Mecha Simulation',
+    category: 'action',
+    rating: 9.3,
+    activePlayers: '87.1K',
+    status: 'COMBAT ENGAGED',
+    releaseYear: '2023',
+    developer: 'FromSoftware',
+    tags: ['Heavy Mech', 'Omni-Directional', 'Boss Fights', 'Customization'],
+    coverImage: 'https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=1200&auto=format&fit=crop',
+    description: 'Pilot customizable mechanized assault suits on the ruined industrial world of Rubicon 3. High-velocity 3D aerial battles for Coral dominance.',
+    accentColor: 'cyan',
+    badge: 'HARDCORE'
+  }
+];
+
+export const CATEGORIES = [
+  { id: 'all', label: 'All Sectors' },
+  { id: 'rpg', label: 'Sci-Fi RPGs' },
+  { id: 'shooter', label: 'Space Shooters' },
+  { id: 'action', label: 'Tactical & Mecha' }
+];
+
+export const HERO_FEATURED = {
+  id: 'featured-prime',
+  title: 'CYBER-DROP 2026 // SYSTEM AWAKENING',
+  subtitle: 'The Nexus Quantum Grid is live. Connect your neural link to explore 500+ interconnected hyper-realities with zero latency.',
+  badge: 'SEASON 07 // BROADCAST ONLINE',
+  activeServers: '4,892 Nodes',
+  totalUsers: '1.4M Netrunners',
+  ping: '11ms Quantum',
+  bgImage: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1920&auto=format&fit=crop'
+};
